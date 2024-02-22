@@ -45,6 +45,19 @@ nav {
 }
 
 
+.login-button {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    
+}
+.login-button > * {
+    padding: 0.5em;
+    padding-inline: 2em;
+    font-weight: 600;
+}
+
+
 @keyframes enlarge {
     from {
         transform: scale(1);
@@ -52,4 +65,15 @@ nav {
     to {
         transform: scale(1.1);
     }
+}
+
+
+.text-content {
+    width: 70%;
+    margin: 8rem auto;
+    color: rgb(60, 60, 60);
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+
 }
