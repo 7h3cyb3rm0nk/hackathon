@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-size: 4rem;
+    text-align:center;
+    padding-top: 2rem;
+    background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec008c, #fc6767); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec008c, #fc6767); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #ebeff0;
+    
+}
+
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.content {
+    display: flex;
+    gap: 2em;
+    margin-block: 1em;
+    margin-inline: 1em;
+    
+
+
+}
+
+.containers {
+    width: 40vw;
+    height: 30vh;
+    background: #ded6d6;
+    border-radius: 9px;
+}
+
+.containers:hover {
+    animation: 1s forwards enlarge;
+}
+
+
+@keyframes enlarge {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
