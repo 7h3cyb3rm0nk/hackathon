@@ -77,3 +77,15 @@ nav {
     line-height: 1.5em;
 
 }
+
+.cntnr1 {
+    background : url("../images/cute-boy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.cntnr2 {
+    background: url("../images/boy-girl-with-down-syndrome-looking-laptop.jpg");
+    background-size: cover;
+    background-position: right 50%;
+}
