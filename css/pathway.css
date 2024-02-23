@@ -1,0 +1,86 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+}
+.body {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    
+    gap: 3em;
+    align-items:center;
+    justify-content: center;
+}
+
+.cards{
+
+height: 19em;
+width: 32em;
+background: gray;
+border-radius: 9px;
+display:flex;
+align-items:end;
+justify-content: center;
+
+}
+
+.c1 {
+    background: url("../images/maths.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+    
+}
+.c2 {
+    background: url("../images/cs.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.c3 {
+    background: url("../images/physics.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.cards > * {
+
+    font-size: 1.5em;
+    background: black;
+    padding-inline: 1em;
+    padding-block: 0.5em;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+.cards:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+nav {
+    font-size: 4rem;
+    text-align:center;
+    padding-top: 2rem;
+    background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec008c, #fc6767); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec008c, #fc6767); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #ebeff0;
+    flex: none;
+    
+}
+
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

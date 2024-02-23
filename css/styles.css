@@ -38,6 +38,7 @@ nav {
     height: 30vh;
     background: #ded6d6;
     border-radius: 9px;
+    box-shadow: 2px 2px 3px rgb(214, 214, 214);
 }
 
 .containers:hover {
@@ -45,13 +46,23 @@ nav {
 }
 
 
-.login-button {
+.learn-button {
     position: absolute;
     top: 1em;
     right: 1em;
+    padding: 2em;
+    font-size: 1.2em;
     
 }
-.login-button > * {
+.learn-button:visited, .learn-button:active, .learn-button:hover, .learn-button:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.learn-button:hover {
+    color: black;
+}
+.learn-button > * {
     padding: 0.5em;
     padding-inline: 2em;
     font-weight: 600;
@@ -88,4 +99,17 @@ nav {
     background: url("../images/boy-girl-with-down-syndrome-looking-laptop.jpg");
     background-size: cover;
     background-position: right 50%;
+}
+
+.cntnr3 {
+    background: url("../images/child-smiling-with-hands-full-paint.jpg");
+    background-size: cover;
+    /* background-position: right 50%; */
+
+}
+
+button {
+    all: unset;
+    background: white;
+    border-radius: 9px;
 }
